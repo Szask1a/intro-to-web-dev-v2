@@ -60,3 +60,20 @@ function greet(name, age) {
 
   console.log(numbers);
   console.log(numbers[1]);
+  console.log(numbers.length);
+  console.log(numbers.join('|')); // joins the array to a single string
+
+  const student = [{
+    id: 100,
+    studentName: 'abi',
+}];
+
+  student.push ({ id: '400', name: 'habibi' });
+  student[2] = {id: '200', name: 'hUwu'};
+
+  //DOM
+
+  const redSquere = document.querySelector('.CSSCLASS');
+  redSquere.style.backgroundColor = 'green';
+
+  //Event Listeners
